@@ -15,5 +15,5 @@ jobs:
       - uses: expo/expo-github-action@v6
         with:
           expo-version: 48.x
-      - run: npm
+      - run: npm start
       - run: npm test
