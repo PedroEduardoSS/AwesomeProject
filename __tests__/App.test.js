@@ -40,16 +40,16 @@ describe('Testes das funções GET, POST, PUT e DELETE', () => {
 
   test('Teste a função POST', async () => {
     // Adicione aqui a lógica para testar a função POST
-    expect(mockAxios.post).toHaveBeenCalled();
+    expect(mockAxiosPost.post).toHaveBeenCalled();
   });
 
   test('Teste a função PUT', async () => {
     // Adicione aqui a lógica para testar a função PUT
-    expect(mockAxios.put).toHaveBeenCalled();
+    expect(mockAxiosPut.put).toHaveBeenCalled();
   });
 
   test('Teste a função DELETE', async () => {
     // Adicione aqui a lógica para testar a função DELETE
-    expect(mockAxios.delete).toHaveBeenCalled();
+    expect(mockAxiosDelete.delete).toHaveBeenCalled();
   });
 });
