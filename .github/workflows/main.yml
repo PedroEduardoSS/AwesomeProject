@@ -15,5 +15,5 @@ jobs:
       - uses: expo/expo-github-action@v6
         with:
           expo-version: 4.x
-      - run: yarn
-      - run: yarn test
+      - run: npm ci
+      - run: npm test
